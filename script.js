@@ -114,4 +114,3 @@ window.onresize = init;
 setInterval(() => {
     document.getElementById('live-clock').innerText = new Date().toLocaleTimeString('en-GB', { hour12: false });
 }, 1000);
-a
